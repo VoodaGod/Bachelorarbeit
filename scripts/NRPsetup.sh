@@ -1,16 +1,20 @@
+set -i #make interactive so that source <file> works
+
 mkdir -p $HOME/.local
-echo "#NRP stuff" >> $HOME/.bashrc
-echo "export HBP=$HOME/NRP" >> $HOME/.bashrc
-#echo "export NRP_INSTALL_MODE=user" >> $HOME/.bashrc
+echo '
+#NRP stuff
+export HBP=$HOME/NRP
+export NRP_INSTALL_MODE=user' >> $HOME/.bashrc
 source $HOME/.bashrc
+echo '$HBP'"=$HBP"
 sudo apt-get -y install cmake git build-essential doxygen python-dev python-h5py python-lxml autogen automake libtool build-essential autoconf libltdl7-dev libreadline6-dev libncurses5-dev libgsl0-dev python-all-dev python-numpy python-scipy python-matplotlib ipython ipython-notebook libxslt1-dev zlib1g-dev python-opencv ruby libtar-dev libprotoc-dev protobuf-compiler imagemagick libtinyxml2-dev git python-virtualenv libffi-dev uwsgi-plugin-python python-pip git
 mkdir -p $HBP
 cd $HBP
 git clone https://bitbucket.org/hbpneurorobotics/user-scripts.git --branch=master
 cd $HBP/user-scripts
 ./clone-all-repos
-echo ". $HBP/user-scripts/nrp_variables" >> $HOME/.bashrc
-echo ". $HBP/user-scripts/nrp_aliases" >> $HOME/.bashrc
+echo '. $HBP/user-scripts/nrp_variables' . >> $HOME/.bashrc
+echo '. $HBP/user-scripts/nrp_aliases' >> $HOME/.bashrc
 source $HOME/.bashrc
 
 sudo wget -O - https://raw.githubusercontent.com/ros/rosdistro/master/ros.key | sudo apt-key add -
@@ -33,7 +37,8 @@ sudo apt-get -y install bison byacc
 
 sudo apt-get -y install libgts-dev libjansson-dev
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
-source $HOME/.bashrc
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
 nvm install 0.10
 nvm install 8
 nvm alias default 8
@@ -54,4 +59,4 @@ sudo gem install compass
 npm install -g grunt-cli
 npm install -g grunt
 
-echo "continue at Step 9"
+echo 'open new terminal and run NRPbuild.sh'
