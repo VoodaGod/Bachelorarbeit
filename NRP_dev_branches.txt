@@ -1,0 +1,14 @@
+Repos:	
+	Models
+	GazeboRosPackages
+Branches:
+	NRPRES-44
+	NRPRES-42
+	
+.git/config:
+	fetch: refs/head/master -> refs/head/*
+	
+	
+in Models: ./create_symlinks.sh
+in GazeboRosPackages: catkin_make
+
