@@ -1,0 +1,4 @@
+Blur: https://github.com/PavelDoGreat/Super-Blur
+	for materials select shaders:
+		Custom/SuperBlurPostEffect
+		UI/SuperBlur
