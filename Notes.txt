@@ -2,3 +2,7 @@ Blur: https://github.com/PavelDoGreat/Super-Blur
 	for materials select shaders:
 		Custom/SuperBlurPostEffect
 		UI/SuperBlur
+		
+BlackBackfaces shader: https://forum.unity.com/threads/render-backface-pure-black.46630/#post-296208
+
+InsideOutTextureOnlyShader: adapted from https://forum.unity.com/threads/what-simple-shader-only-shows-diffuse-without-lighting.41054/#post-262044
