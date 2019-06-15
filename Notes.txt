@@ -12,3 +12,8 @@ DiscrepancyHapticHandler.LongVibration(): adapted https://steamcommunity.com/app
 Geiger Clicks: https://youtu.be/upPiJ9vOYiY
 
 Noise: https://www.youtube.com/watch?v=8SHf6wmX5MU
+
+
+
+LaTeX template from: https://www.overleaf.com/latex/templates/tum-thesis-for-informatics-template/ttjnzgmgvvxj
+itself from: https://github.com/fwalch/tum-thesis-latex
