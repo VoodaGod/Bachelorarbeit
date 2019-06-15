@@ -1,3 +1,4 @@
 [submodule "thesis"]
 	path = thesis
 	url = https://github.com/VoodaGod/BachelorarbeitLaTeX
+	branch = master
