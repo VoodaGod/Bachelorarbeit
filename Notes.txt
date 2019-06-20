@@ -5,7 +5,7 @@ Blur: https://github.com/PavelDoGreat/Super-Blur
 		
 BlackBackfaces shader: https://forum.unity.com/threads/render-backface-pure-black.46630/#post-296208
 
-InsideOutTextureOnlyShader: adapted from https://forum.unity.com/threads/what-simple-shader-only-shows-diffuse-without-lighting.41054/#post-262044
+InsideOutTextureOnly Shader: adapted from https://forum.unity.com/threads/what-simple-shader-only-shows-diffuse-without-lighting.41054/#post-262044
 
 DiscrepancyHapticHandler.LongVibration(): adapted https://steamcommunity.com/app/358720/discussions/0/405693392914144440/#c357284767229628161
 
@@ -13,7 +13,12 @@ Geiger Clicks: https://youtu.be/upPiJ9vOYiY
 
 Noise: https://www.youtube.com/watch?v=8SHf6wmX5MU
 
+SilhouetteAlwaysVisible Shader: adapted from https://www.youtube.com/watch?v=EthjeNeNTsM
+MaskOneZLess Shader: https://github.com/PushyPixels/BreakfastWithUnity/tree/master/Assets/54StencilBufferShader/Shaders
 
+Indicator Angle Math: https://youtu.be/b_dDgnfedIo
+
+Default_OverlayNoZTest Shader: http://answers.unity.com/answers/887523/view.html
 
 LaTeX template from: https://www.overleaf.com/latex/templates/tum-thesis-for-informatics-template/ttjnzgmgvvxj
-itself from: https://github.com/fwalch/tum-thesis-latex
+itself from: https://github.com/fwalch/tum-thesis-latex	
