@@ -12,3 +12,6 @@ Branches:
 in Models: ./create_symlinks.sh
 in GazeboRosPackages: catkin_make
 
+don't forget to update Models in NRPClient
+	pull NRP_Models repo
+	python Assets/Models/scripts/copy_flat_hierarchy.py <PATH_TO_NRP_MODELS>

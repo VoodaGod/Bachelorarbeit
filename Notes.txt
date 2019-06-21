@@ -16,7 +16,7 @@ Noise: https://www.youtube.com/watch?v=8SHf6wmX5MU
 SilhouetteAlwaysVisible Shader: adapted from https://www.youtube.com/watch?v=EthjeNeNTsM
 MaskOneZLess Shader: https://github.com/PushyPixels/BreakfastWithUnity/tree/master/Assets/54StencilBufferShader/Shaders
 
-Indicator Angle Math: https://youtu.be/b_dDgnfedIo
+Indicator Angle Math: adapted from https://youtu.be/b_dDgnfedIo
 
 Default_OverlayNoZTest Shader: http://answers.unity.com/answers/887523/view.html
 
