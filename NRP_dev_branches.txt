@@ -9,6 +9,6 @@ Branches:
 	fetch: refs/head/master -> refs/head/*
 	
 	
-in Models: ./create_symlinks.sh
+in Models: ./create-symlinks.sh
 in GazeboRosPackages: catkin_make
 
