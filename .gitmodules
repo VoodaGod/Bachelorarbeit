@@ -2,3 +2,6 @@
 	path = thesis
 	url = https://github.com/VoodaGod/BachelorarbeitLaTeX
 	branch = master
+[submodule "Neurorobotics_Unity3D-Client"]
+	path = Neurorobotics_Unity3D-Client
+	url = https://github.com/VoodaGod/Neurorobotics_Unity3D-Client

@@ -1,17 +1,26 @@
-Repos:	
-	Models
-	GazeboRosPackages
-Branches:
-	NRPRES-44
-	NRPRES-42
-	
-.git/config:
-	fetch: refs/head/master -> refs/head/*
-	
-	
-in Models: ./create-symlinks.sh
-in GazeboRosPackages: catkin_make
+tested with NRP docker image. installation instructions here: https://neurorobotics.net/local_install.html
 
-don't forget to update Models in NRPClient
-	pull NRP_Models repo
-	python Assets/Models/scripts/copy_flat_hierarchy.py <PATH_TO_NRP_MODELS>
+enter the docker image with: 
+	docker exec -it nrp bash
+
+tested with NRP in following state:
+
+GazeboRosPackages on branch NRPRES-42 commit df0eb2a23634680f0deb76e0e81a66e272a1558b
+Models on branch NRPRES-44 commit 4ece6f911081679407321ab8765061e528140d37
+
+to see those branches, you might need to make sure all branches are fetched:
+in .git/config change 
+	fetch: refs/head/master
+to
+	refs/head/*
+
+after updating those modules:
+	in Models: 
+		./create-symlinks.sh
+	in GazeboRosPackages: 
+		catkin_make
+
+don't forget to update Models in NRPClient:
+	Models repo should be at same commit as in NRP docker image
+	in project root dir:
+		python Assets/Models/scripts/copy_flat_hierarchy.py <PATH_TO_NRP_MODELS>
