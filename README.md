@@ -1,5 +1,9 @@
 Repo containing everything relating to my Bachelor's Thesis.
 
+Thesis: https://github.com/VoodaGod/Bachelorarbeit/blob/master/Thesis_VirtualEmbodimentOfHumanFeetInTheNeuroroboticsPlatform.pdf
+
+
+
 The Neurorobotics_Unity3D_Client needs to be set up according to it's README.
 Then,in order to use it with the NRP, update the NRP as follows:
 
