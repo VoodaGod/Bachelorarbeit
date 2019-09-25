@@ -2,7 +2,13 @@ Repo containing everything relating to my Bachelor's Thesis.
 
 Thesis: https://github.com/VoodaGod/Bachelorarbeit/blob/master/Thesis_VirtualEmbodimentOfHumanFeetInTheNeuroroboticsPlatform.pdf
 
+# Usage
+Open the NRPClient_VirtualEmbodiment scene in /Assets/EmbodimentDiscrepancy/Scenes/  
+Attach the trackers to the body as they are on the avatar in the centre of the scene  
+Start the scene, and step into the T-posing avatar, and match his pose. Then press 'A' on the keyboard (this can be adapted easily in the /Assets/EmbodimentDiscrepancy/Scripts/TrackerAssignment/TrackedObjectAssigner.cs script).  
+The TrackedObjectAssigner will assign the correct trackers to the corresponding limbs.
 
+# Setup
 
 The Neurorobotics_Unity3D_Client needs to be set up according to it's README.
 Then,in order to use it with the NRP, update the NRP as follows:
